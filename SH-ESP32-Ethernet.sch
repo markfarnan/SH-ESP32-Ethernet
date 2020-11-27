@@ -4,13 +4,13 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
-Title "Sailor Hat for ESP32"
+Title "Ethernet Top-Hat for SH-ESP32"
 Date ""
 Rev "0.1.0"
-Comp "Hat Laboratories"
+Comp ""
 Comment1 "https://creativecommons.org/licenses/by-sa/4.0"
 Comment2 "To view a copy of this license, visit "
-Comment3 "Sailor Hat for ESP32 is licensed under CC BY-SA 4.0."
+Comment3 "Ethernet Top-Hat for SH-ESP32 is licensed under CC BY-SA 4.0."
 Comment4 ""
 $EndDescr
 $Sheet

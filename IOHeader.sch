@@ -4,13 +4,13 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 3
-Title "Sailor Hat for ESP32"
+Title "Ethernet Top-Hat for SH-ESP32"
 Date ""
 Rev "0.1.0"
-Comp "Hat Laboratories"
+Comp ""
 Comment1 "https://creativecommons.org/licenses/by-sa/4.0"
 Comment2 "To view a copy of this license, visit "
-Comment3 "Sailor Hat for ESP32 is licensed under CC BY-SA 4.0."
+Comment3 "Ethernet Top-Hat for SH-ESP32 is licensed under CC BY-SA 4.0."
 Comment4 ""
 $EndDescr
 $Comp
@@ -259,8 +259,9 @@ U 1 1 5FC86610
 P 9450 2800
 F 0 "J301" H 9450 3767 50  0000 C CNN
 F 1 "RJ45__HY931147C_MAG_LED_POE" H 9450 3676 50  0000 C CNN
-F 2 "Connector_RJ:RJ45_Abracon_ARJP11A-MA_Horizontal" H 9450 4200 50  0001 C CNN
+F 2 "SH-ESP32-Ethernet:RJ45_HANRUN-HY931147C-Horizontal" H 9450 4200 50  0001 C CNN
 F 3 "https://abracon.com/Magnetics/lan/ARJP11A.PDF" H 9300 3100 50  0001 C CNN
+F 4 "C91754" H 9450 2800 50  0001 C CNN "LCSC"
 	1    9450 2800
 	1    0    0    -1  
 $EndComp
@@ -406,6 +407,7 @@ F 0 "U301" H 3800 2250 50  0000 C CNN
 F 1 "LAN8720A" H 3900 2150 50  0000 C CNN
 F 2 "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm" H 4350 2300 50  0001 L CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/8720a.pdf" H 4100 2400 50  0001 C CNN
+F 4 "C45223" H 4300 3350 50  0001 C CNN "LCSC"
 	1    4300 3350
 	1    0    0    -1  
 $EndComp

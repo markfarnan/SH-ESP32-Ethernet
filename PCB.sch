@@ -4,13 +4,13 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 3
-Title ""
+Title "Ethernet Top-Hat for SH-ESP32"
 Date ""
-Rev ""
+Rev "0.1.0"
 Comp ""
-Comment1 ""
-Comment2 ""
-Comment3 ""
+Comment1 "https://creativecommons.org/licenses/by-sa/4.0"
+Comment2 "To view a copy of this license, visit "
+Comment3 "Ethernet Top-Hat for SH-ESP32 is licensed under CC BY-SA 4.0."
 Comment4 ""
 $EndDescr
 Text Notes 1600 1600 0    50   ~ 0
