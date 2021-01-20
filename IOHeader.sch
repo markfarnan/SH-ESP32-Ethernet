@@ -183,7 +183,7 @@ F 3 "" H 2100 3750 50  0001 C CNN
 	1    2100 3750
 	1    0    0    -1  
 $EndComp
-Text Label 2950 4450 0    50   ~ 0
+Text Label 3150 4450 0    50   ~ 0
 PHY_CLK
 Text Label 1100 4050 2    50   ~ 0
 PHY_RESET_N
@@ -732,8 +732,6 @@ Wire Wire Line
 	8750 2050 8450 2050
 Wire Wire Line
 	8750 2250 8450 2250
-Text Label 6300 3750 0    50   ~ 0
-LED_Y
 Wire Wire Line
 	5000 3750 5200 3750
 $Comp
@@ -974,7 +972,7 @@ Connection ~ 2450 4050
 Wire Wire Line
 	2450 4050 2500 4050
 Wire Wire Line
-	2800 4450 2950 4450
+	2800 4450 2900 4450
 $Comp
 L Device:R R?
 U 1 1 5FE6CB06
@@ -1175,4 +1173,31 @@ Wire Wire Line
 	8450 4250 8450 4050
 Wire Wire Line
 	8450 4050 8750 4050
+$Comp
+L Device:R R?
+U 1 1 60086B17
+P 3050 4250
+AR Path="/5F89C30A/60086B17" Ref="R?"  Part="1" 
+AR Path="/60086B17" Ref="R?"  Part="1" 
+AR Path="/5FC3847D/60086B17" Ref="R?"  Part="1" 
+AR Path="/5FBE301B/60086B17" Ref="R318"  Part="1" 
+F 0 "R318" V 2950 4350 50  0000 C CNN
+F 1 "33R" V 2950 4150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 2980 4250 50  0001 C CNN
+F 3 "~" H 3050 4250 50  0001 C CNN
+F 4 "C25105" H 3050 4250 50  0001 C CNN "LCSC"
+	1    3050 4250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2900 4450 2900 4250
+Connection ~ 2900 4450
+Wire Wire Line
+	3500 3850 3400 3850
+Wire Wire Line
+	3400 3850 3400 4250
+Wire Wire Line
+	3400 4250 3200 4250
+Wire Wire Line
+	2900 4450 3150 4450
 $EndSCHEMATC
