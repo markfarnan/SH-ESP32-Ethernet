@@ -23,7 +23,7 @@ AR Path="/5FC50B89/5FC0D043" Ref="H?"  Part="1"
 AR Path="/5FC0C355/5FC0D043" Ref="H1002"  Part="1" 
 F 0 "H1002" H 2000 2196 50  0000 L CNN
 F 1 "MountingHole" H 2000 2105 50  0000 L CNN
-F 2 "SH-ESP32:MountingHole_3.2mm_M3_Unplated" H 1900 2150 50  0001 C CNN
+F 2 "SH-ESP32-Ethernet:MountingSlot_3.2mm_M3_Unplated" H 1900 2150 50  0001 C CNN
 F 3 "~" H 1900 2150 50  0001 C CNN
 	1    1900 2150
 	1    0    0    -1  
